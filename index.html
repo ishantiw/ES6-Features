@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Using template</title>
+ </head>
+
+
+ <body>
+     <header>
+       <h1 id="heading">Learning Template</h1>
+       <p>With Ishan Tiwari</p>
+     </header>
+     <div id="container">
+       <div id="template">
+       </div>
+     </div>
+     <script src="src/generatorsPractice.js">
+     </script>
+     <button id="testBtn" type="button"> Click me </button>
+     <script language="javacript/jquery">
+     //Arrow usage example
+     //without arrow
+    /* $('.btn').click(function () {
+         setTimeout(function () {
+             $(this).text('new');
+             // This will cause an error since function() defines this as the global object.
+         } ,100);
+     });
+
+     //with arrow
+     $('#testBtn').click(function () { // <- Enclosing context
+       console.log('inside');
+         setTimeout( () => {
+             $(this).text('changed')  }
+             // This works, because this will be set to a value captured from the enclosing context.
+           ,1);
+     })*/
+     </script>
+   </body>
+</html>
